@@ -1,7 +1,7 @@
 import io
 from typing import List, Dict
 
-from logger import logger
+from logger.logger import logger
 from apiclient import errors
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
