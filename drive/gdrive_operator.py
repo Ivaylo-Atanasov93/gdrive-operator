@@ -24,7 +24,7 @@ class GDriveOperator:
         if self.__main_drive_folder is None:
             logger.info('Finding the main folder. . .')
             self.__main_drive_folder = self.find_file(
-                'gdrive-transporter'
+                'gdrive-operator'
             )["id"]
         return self.__main_drive_folder
 
